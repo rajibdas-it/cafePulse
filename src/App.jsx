@@ -3,6 +3,7 @@ import About from "./components/About";
 import Home from "./components/Home";
 import Menu from "./components/Menu";
 import Navbar from "./components/Navbar";
+import Product from "./components/Product";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
         </div>
         <div id="about">
           <About />
+        </div>
+        <div id="product">
+          <Product />
         </div>
       </main>
     </div>
