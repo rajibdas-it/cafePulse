@@ -9,7 +9,7 @@ const ProductCard = (props) => {
       <img className="rounded-lg" src={props.img} alt="" />
       <div className="flex flex-col items-center mt-5 gap-3">
         <h2 className="font-semibold text-xl">{props.title}</h2>
-        <div className="flex flex-row gap-2">
+        <div className="flex">
           <BsStarFill size={25} className="text-brightColor" />
           <BsStarFill size={25} className="text-brightColor" />
           <BsStarFill size={25} className="text-brightColor" />

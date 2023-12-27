@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Menu from "./components/Menu";
 import Navbar from "./components/Navbar";
 import Product from "./components/Product";
+import Review from "./components/Review";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
         </div>
         <div id="product">
           <Product />
+        </div>
+        <div id="review">
+          <Review />
         </div>
       </main>
     </div>
